@@ -9,7 +9,7 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "*": "prettier --write"
+    "**/*.{js,ts,tsx,json,md,css,yml,yaml}": "prettier --write"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
