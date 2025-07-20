@@ -1,0 +1,16 @@
+
+# Ignore artifacts:
+build
+dist
+.next
+node_modules
+
+# Ignore dotfiles:
+.env
+.env.*
+!.env.example
+
+# Ignore lockfiles:
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
