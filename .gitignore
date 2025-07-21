@@ -41,3 +41,7 @@ next-env.d.ts
 !/.vscode/extensions.json
 !/.vscode/launch.json
 !/.vscode/tasks.json
+
+# Project-specific files
+CLAUDE.md
+docker-compose.yml
